@@ -43,6 +43,6 @@ jobs:
           # Push is a shorthand for --output=type=registry
           push: true
           # List of tags
-          tags: ${{secrets.ACR_NAME}}/contoso-website:latest,${{secrets.ACR_NAME}}/contoso-website:${{ steps.fetch_version.outputs.TAG }}
+          tags: ${{secrets.ACR_LOGIN_SERVER}}/contoso-website:latest,${{secrets.ACR_LOGIN_SERVER}}/contoso-website:${{ steps.fetch_version.outputs.TAG }}
     
         
