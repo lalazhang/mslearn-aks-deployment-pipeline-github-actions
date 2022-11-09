@@ -48,6 +48,7 @@ jobs:
           resource-group: mslearn-gh-pipelines-3951
           # AKS Cluster Name
           cluster-name: contoso-video
+          subscription: 3430d26b-03b8-45bf-8c67-04bc6251ff3a
      
       - name: Run Helm Deploy
         run: |
